@@ -358,7 +358,8 @@
         "Fn::Join" : [ " ", [
             "#!/bin/bash\n",
 			"sudo rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm\n",
-			"sudo yum install ansible -y"
+			"sudo yum install ansible -y\n",
+		        "sudo yum install httpd -y\n"
 	] ]
     }
 }
